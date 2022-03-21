@@ -1,0 +1,17 @@
+﻿<Window x:Class="CS311_Project2_ALB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS311_Project2_ALB"
+        mc:Ignorable="d"
+        Title="Craps" Height="450" Width="800">
+    <Grid>
+        <Button Name="RollButton" Content="ROLL" HorizontalAlignment="Center" Height="61" Margin="0,311,0,0" VerticalAlignment="Top" Width="162" Click="RollButton_Click"/>
+        <Label x:Name="BankBalanceLabel" Content="BankBalance" HorizontalAlignment="Left" Height="28" Margin="182,329,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBox x:Name="BetBox" HorizontalAlignment="Center" Height="34" Margin="0,272,0,0" TextWrapping="Wrap" Text="Enter Your Bet" VerticalAlignment="Top" Width="134" TextChanged="TextBox_TextChanged"/>
+        <Label x:Name="winStatus" Content="You Win!/Lose/Point" HorizontalAlignment="Left" Height="42" Margin="505,325,0,0" VerticalAlignment="Top" Width="127"/>
+        <Label x:Name="die1Lbl" Content="die1" HorizontalAlignment="Left" Margin="225,166,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="die2Lbl" Content="die2" HorizontalAlignment="Left" Margin="400,174,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
